@@ -1,0 +1,205 @@
+/* EditStudentPage.jsx page css start */
+
+.editdiv{
+    width: 50vw;
+    background-color: rgba(255, 255, 255, .4);
+    backdrop-filter: blur(10px);
+    height: 50vh;
+    margin: 50px auto;
+    border-radius: 25px;
+    text-align: center;
+    
+}
+.editdiv input{
+    width: 20vw;
+    margin-left: 10px;
+    margin-top: 50px;
+    border-radius: 25px;
+    border: 2px solid gray;
+    height: 30px;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    font-size: 18px;
+}
+.editdiv button{
+    width: 15vw;
+    margin-top: 50px;
+    border-radius: 25px;
+    border: 2px solid gray;
+    height: 30px;
+    background-color: lightseagreen;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+.updatebtn:hover{
+    background-color: limegreen;
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;   
+    border: none;
+}
+.cbtn:hover{
+    background-color: red;
+    border: none;
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;   
+}
+@media only screen and (min-width: 150px) and (max-width: 600px) {
+    .editdiv{
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, .4);
+        backdrop-filter: blur(10px);
+        height: 60vh;
+        margin: 50px auto;
+        border-radius: 25px;
+        text-align: center;
+        
+    }
+    .editdiv input{
+        width: 40vw;
+        display: block;
+        margin: 15px auto;
+        border-radius: 25px;
+        border: 2px solid gray;
+        height: 40px;
+        background-color: lightgoldenrodyellow;
+        text-align: center;
+        font-size: 18px;
+    }
+    .editdiv button{
+        width: 40vw;
+        display: block;
+        margin: 10px auto;
+        border-radius: 25px;
+        border: 2px solid gray;
+        height: 35px;
+        background-color: lightseagreen;
+        text-align: center;
+        font-size: 18px;
+        color: white;
+        cursor: pointer;
+    
+    }
+}
+
+/* EditStudentPage.jsx page css over */
+
+
+
+/* AddStudents.jsx page css Start */
+.addstudents{
+    width: 50vw;
+    background-color: rgba(255, 255, 255, .4);
+    backdrop-filter: blur(10px);
+    height: 50vh;
+    margin: 50px auto;
+    border-radius: 25px;
+    text-align: center;
+}
+.addstudents input{
+    width: 20vw;
+    margin-left: 10px;
+    margin-top: 50px;
+    border-radius: 25px;
+    border: 2px solid gray;
+    height: 30px;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    font-size: 18px;
+    
+}
+.addstudents button{
+    width: 10vw;
+    margin-top: 50px;
+    border-radius: 25px;
+    border: 2px solid gray;
+    height: 30px;
+    background-color: lightseagreen;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+.submitbtn:hover{
+    background-color: limegreen;
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    border: none;
+
+}
+.cancelbtn:hover{
+    background-color: red;
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    border: none;
+
+}
+.add-h1tag{
+    text-align: center;
+    color: rgb(10, 112, 175);
+    font-size: 2rem;
+    width: 30vw;
+    background-color: rgba(255, 255, 255, .4);
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    border-radius: 25px;
+    margin: 30px auto;
+}
+@media only screen and (min-width: 150px) and (max-width: 600px) {
+    .addstudents{
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, .4);
+        backdrop-filter: blur(10px);
+        height: 60vh;
+        margin: 50px auto;
+        border-radius: 25px;
+        text-align: center;
+    }
+    .addstudents input{
+        width: 40vw;
+        display: block;
+        margin: 15px auto;
+        border-radius: 25px;
+        border: 2px solid gray;
+        height: 40px;
+        background-color: lightgoldenrodyellow;
+        text-align: center;
+        font-size: 18px;
+        
+    }
+    .addstudents button{
+        width: 40vw;
+        border-radius: 25px;
+        display: block;
+        margin: 10px auto;
+        border: 2px solid gray;
+        height: 35px;
+        background-color: lightseagreen;
+        text-align: center;
+        font-size: 18px;
+        color: white;
+        cursor: pointer;
+    
+    }
+    .add-h1tag{
+        text-align: center;
+        color: rgb(10, 112, 175);
+        font-size: 1.5rem;
+        width: 60vw;
+        background-color: rgba(255, 255, 255, .4);
+        backdrop-filter: blur(10px);
+        padding: 15px;
+        border-radius: 25px;
+        margin: 30px auto;
+    }
+  }
+/* AddStudents.jsx page css over */
